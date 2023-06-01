@@ -1,0 +1,84 @@
+body {
+  background-color: #F3E8EE;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #2E2C2F;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h1 {
+  color: #CB769E;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+h2 {
+  color: #CB769E;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #72705B;
+}
+
+i {
+  font-size: 32px;
+  color: #E09891;
+}
+
+a:hover {
+  color: darkolivegreen;
+}
+
+.card-white {
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.img-circle {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
